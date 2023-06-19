@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_size">48dp</dimen>
+    <dimen name="logo_margin">18dp</dimen>
+
+</resources>
