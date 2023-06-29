@@ -83,7 +83,7 @@ private fun fetchChannelList(playlistUrl: String) {
             })
         }
 ```
-displaChannels
+displayChannels
 ```
      private fun displayChannels() {
             logoContainer.removeAllViews()
