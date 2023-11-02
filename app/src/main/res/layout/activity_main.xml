@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/system_accent1_500"
+    android:background="@color/design_default_color_error"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/player_container"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_margin="16dp">
+ <FrameLayout
+     android:id="@+id/player_container"
+     android:layout_width="match_parent"
+     android:layout_height="200dp"
+     android:layout_margin="4dp">
 
         <androidx.media3.ui.PlayerView
             android:id="@+id/player_view"
